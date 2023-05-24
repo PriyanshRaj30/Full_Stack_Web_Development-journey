@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    color: crimson;
+    border: 2px solid slategray;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+.circle{
+    background-color: wheat;
+    height: 200px;
+    width: 200px;
+    transition: 1s;
+    /* transition:background-color 2.5s,border-radius 1s; */
+    
+}
+.circle:hover{
+    background-color: black;
+    border: 2px solid wheat;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+section{
+    display: inline-block;
+
+}
+section div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(189, 107, 112);
+    margin: 3px;
+    transition: 3s;
+}
+section:hover div {
+    margin-left: 500px;
+    background-color: aqua;
+
+}
+div:nth-of-type(2){
+    transition-timing-function: ease-in;
+}
+div:nth-of-type(3){
+    transition-timing-function: ease-in-out;
+}
+div:nth-of-type(4){
+    transition-timing-function: cubic-bezier(0.85, 0, 0.15, 1);
+}
+div:nth-of-type(5)
+    transition-timing-function: cubic-bezier(0.7, 0, 0.84, 0);

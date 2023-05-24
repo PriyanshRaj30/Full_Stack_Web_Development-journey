@@ -1,0 +1,16 @@
+nav{
+    font:27px bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid grey;
+    width: 29%;
+    margin-left: 2.2%;
+    padding: 0.4em 0px;
+    font-family: 'Mate SC', serif;
+}
+section{
+    margin: 20px; 
+}
+img{
+    margin: calc(10%/12);
+    width: 30%;
+}
