@@ -1,0 +1,9 @@
+body{
+    background-color: darkslategrey;
+}
+h1,h2,h3,h4{
+    color: whitesmoke;
+}
+section{
+    margin: 30px;
+}
