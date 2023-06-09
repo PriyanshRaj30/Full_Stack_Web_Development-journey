@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+h1,h2,h3,h4{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    color: rgb(0, 76, 227);
+}
+div{
+    height: 80px;
+    width: auto;
+    margin: 50px 0px;
+    border: 2px solid steelblue;
+    border-right: 0px;
+    border-left: 0px;
+}
+section{
+    margin: auto 0px;
+}
